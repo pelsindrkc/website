@@ -1,0 +1,273 @@
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  margin: 0;
+  background-image: url(../img/r8.jpg);
+  background-size: 100½ 100½;
+  background-position: center;
+}
+#menu {
+  height: 80px;
+  background-color: chocolate;
+  padding: 0 20px;
+}
+#logo {
+  font-size: 50px;
+  line-height: 60px;
+  color: #f9fbfd;
+  float: left;
+}
+nav {
+  float: right;
+  line-height: 90px;
+  font-size: 20px;
+}
+nav a:link {
+  text-decoration: none;
+  margin-right: 25px;
+  color: #f9fbfd;
+}
+nav a:hover {
+  border-bottom: 2px solid #f9fbfd;
+}
+
+nav a:visited {
+  text-decoration: none;
+  margin-right: 25px;
+  color: #f9fbfd;
+}
+.ikon {
+  margin-right: 7px;
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+#hakkimizda {
+  background-color: #f8f9fa;
+  padding: 1px;
+  text-align: center;
+  text-transform: capitalize; /*içeriklerin her baş harfleri büyük yapar*/
+  font-weight: 500;
+}
+h3 {
+  font-size: 55px;
+  color: chocolate;
+  text-shadow: 0px 1px 1px black; /*yazıya gölge vermemizi sağlar*/
+  font-weight: 600;
+}
+.container {
+  width: 1200px;
+  height: auto;
+  margin: auto;
+}
+#sol {
+  float: left;
+  border-right: 3px solid chocolate;
+  font-size: 30px;
+  width: 400px;
+  color: chocolate;
+}
+#h5sol {
+  line-height: 1.6;
+  font-size: 22px;
+  font-weight: 600;
+}
+#h5sol {
+  margin: 0;
+  padding: 0;
+  margin-top: 20px;
+}
+
+#sag {
+  float: right;
+  width: 750px;
+  color: black;
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 20px;
+  line-height: 1.8;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+.mt100 {
+  margin-top: 25px;
+}
+#pson {
+  color: black;
+  letter-spacing: 1px;
+  font-size: 15px;
+  line-height: 1.8;
+  margin-top: 10px;
+}
+#egitimler {
+  background-color: white;
+  padding: 50px; /* içeriğin her iki taraftan eşit olarak boşluk bırakmaya yarıyor*/
+  text-align: center;
+  height: 700px;
+}
+.card {
+  width: 320px;
+  height: 350px;
+  border: 1px solid chocolate;
+  padding: 0px;
+  display: inline-block;
+}
+.baslikcard {
+  font-size: 15px;
+  color: black;
+}
+.card:hover {
+  border: 2px solid black; /*eğitimler kısmına geldiğimizde eğitim üstüne bastığımızda çerçeve kendini belli ediyor*/
+}
+.social {
+  color: white;
+  border: 1px solid white;
+  padding: 10px;
+  width: 50px;
+  border-radius: 5px;
+  margin: 5px 10px;
+}
+.social:hover {
+  background-color: chocolate;
+}
+#iletisim {
+  background: url("../img/iletisim.jpg");
+  background-size: cover;
+  padding: 50px;
+  height: auto;
+  text-align: center;
+}
+#h3iletisim {
+  color: chocolate;
+}
+#iletisimopak {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 30px 20px;
+  border-radius: 5px;
+  margin-bottom: 50px;
+  height: 550px;
+}
+#formgroup {
+  width: 700px;
+  float: left;
+  height: 500px;
+  text-align: left;
+}
+#solform {
+  width: 50%;
+  float: left;
+  padding-right: 20px;
+}
+#sagform {
+  width: 50%;
+  float: right;
+  padding-left: 20px;
+}
+.form-control {
+  width: 100%;
+  padding: 10px;
+  font-size: 15px;
+  line-height: 1.5;
+  color: black;
+  background-color: white;
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+}
+textarea {
+  font-family: arial;
+}
+input[type="submit"] {
+  cursor: pointer; /*butona geldiğimizde fare imleci okdan el işaretine gelicek*/
+  background-color: #445c6e;
+  font-size: 18px;
+  letter-spacing: 1px;
+  padding: 10px 30px;
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px; /*butonu oval olarak değiştiriyor*/
+  margin-left: 10px;
+  margin-top: 10px;
+}
+#adres {
+  width: 450px;
+  float: right;
+  padding: 30px;
+  height: 500px;
+  text-align: left;
+}
+#adresbaslik {
+  font-size: 30px;
+  color: black;
+}
+.adresp {
+  color: black;
+  font-size: 15px;
+  letter-spacing: 1.5px;
+}
+#copyright {
+  color: white;
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+}
+.login {
+  margin: 20px auto;
+  width: 300px;
+}
+.login-screen {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 150px;
+}
+.app-title {
+  text-align: center;
+  color: chocolate;
+}
+.login-form {
+  text-align: center;
+}
+.control-group {
+  margin-bottom: 10px;
+}
+input {
+  text-align: center;
+  background-color: #ecf0f1;
+  border: 2px solid transparent;
+  border-radius: 3px;
+  font-size: 16px;
+  font-weight: 200;
+  padding: 10px 0;
+  width: 250px;
+  transition: border 0.5s;
+}
+input:focus {
+  border: 2px solid chocolate;
+  box-shadow: none;
+}
+.btn {
+  border: 2px solid transparent;
+  background: chocolate;
+  color: white;
+  font-size: 16px;
+  line-height: 25px;
+  padding: 16px 0;
+  text-decoration: none;
+  text-shadow: none;
+  border-radius: 3px;
+  transition: 0.25s;
+  display: block;
+  width: 250px;
+  margin: 0 auto;
+  margin-top: 5px;
+}
+.btn:hover {
+  background-color: chocolate;
+}
